@@ -1,8 +1,0 @@
----
-
-- hosts: web
-  name: "Petclinic App Server Deployment"
-  become: yes
-  roles:
-  - firewall
-  - petclinic 
