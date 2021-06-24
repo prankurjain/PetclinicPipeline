@@ -1,5 +1,5 @@
 resource "aws_instance" "backend" {
-  ami               = "ami-0ebc8f6f580a04647"
+  ami               = "ami-0b9064170e32bde34"
   instance_type     = "t2.micro"
   key_name          = var.key_name
   vpc_security_group_ids = [var.sg_id]

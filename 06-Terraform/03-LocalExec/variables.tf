@@ -8,7 +8,7 @@ variable "pvt_key_name" {
 
 
 variable "sg_id" {
-  default = "sg-0ba7d2699a8e28cf7"
+  default = "sg-010af018771d38228"
 }
 
 variable "region" {
