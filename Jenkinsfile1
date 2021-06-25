@@ -9,7 +9,7 @@ node('master') {
 	
     
     stage('Git-CheckOut') {
-      git branch: 'main', url: 'https://github.com/prankurjain/pipeline.git'
+      git branch: 'main', url: 'https://github.com/prankurjain/PetclinicPipeline.git'
     }  
     
   dir(project_path) {
